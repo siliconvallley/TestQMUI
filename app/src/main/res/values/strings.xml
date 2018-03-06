@@ -1,0 +1,20 @@
+<resources>
+    <string name="app_name">TestQMUI</string>
+
+    <string name="main_tab1">爱心</string>
+    <string name="main_tab2">新闻</string>
+    <string name="main_tab3">党新闻</string>
+    <string name="main_tab4">个人信息</string>
+
+    <string name="fork_pop_bt1">facebook</string>
+    <string name="fork_pop_bt2">instagram</string>
+    <string name="fork_pop_bt3">微博</string>
+    <string name="fork_pop_bt4">支付宝</string>
+    <string name="fork_pop_bt5">QQ</string>
+    <string name="fork_pop_bt6">微信</string>
+    <string name="fork_pop_bt7">空间</string>
+    <string name="title_activity_main2">Main2Activity</string>
+    <string name="title_home">Home</string>
+    <string name="title_dashboard">Dashboard</string>
+    <string name="title_notifications">Notifications</string>
+</resources>

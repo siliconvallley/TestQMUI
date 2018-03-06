@@ -1,0 +1,6 @@
+
+Asquid:S1181"%Catch Exception instead of Throwable.(λί‹™8κ—ΧΙ,
+›squid:S1186"€Add a nested comment explaining why this method is empty, throw an UnsupportedOperationException or complete the implementation.( …Ξϊÿÿÿÿ
+asquid:UselessImportCheck"8Remove this unused import 'android.view.LayoutInflater'.(ΐ―ΡΗ8ζ®ΥΗ,
+\squid:UselessImportCheck"3Remove this unused import 'android.view.ViewGroup'.(‹ξα8ζ®ΥΗ,
+?squid:S1148"#Use a logger to log this exception.(Σωσÿ8κ—ΧΙ,
