@@ -1,5 +1,7 @@
 package com.isoftstone.huidingc.testqmui.network.utils;
 
+import android.text.TextUtils;
+
 import com.google.gson.Gson;
 import com.google.gson.JsonObject;
 import com.google.gson.reflect.TypeToken;
@@ -44,11 +46,13 @@ public class GsonUtil {
      * @return
      */
     public static <T> ArrayList<T> jsonToArrayList(String json,Class<T> clazz){
-        Type type = new TypeToken<ArrayList<JsonObject>>(){}.getType();
-        ArrayList<JsonObject> jsonObjects = new Gson().fromJson(json,type);
         ArrayList<T> list = new ArrayList<>();
-        for (JsonObject jsonObject : jsonObjects) {
-            list.add(new Gson().fromJson(jsonObject,clazz));
+        if(!json.equals("null") && !json.equals("") && !TextUtils.isEmpty(json)){
+            Type type = new TypeToken<ArrayList<JsonObject>>(){}.getType();
+            ArrayList<JsonObject> jsonObjects = new Gson().fromJson(json,type);
+            for (JsonObject jsonObject : jsonObjects) {
+                list.add(new Gson().fromJson(jsonObject,clazz));
+            }
         }
         return list;
     }

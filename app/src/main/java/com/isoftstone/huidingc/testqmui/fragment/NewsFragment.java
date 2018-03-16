@@ -65,6 +65,7 @@ public class NewsFragment extends BaseFragment {
     @Override
     protected void initData() {
         setDefaultWebSettings(wb);
+        wb.loadUrl("https://www.baidu.com/?tn=39042058_30_oem_dg");
     }
 
     private void setDefaultWebSettings(WebView webView) {
